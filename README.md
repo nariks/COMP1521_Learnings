@@ -10,3 +10,5 @@ Learnings from Computer System Fundamentals course
 - sizeof operator is evaluated at compile time
 - static variables are stored in data segment of memory. lifetime is entirety of program
 
+**16-Feb-2026**
+- Free heap allocated memory before resassigning its pointer, else this will result in a memory leak.
